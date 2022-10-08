@@ -1,7 +1,6 @@
 *{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif !important;
 }
-
 @media(min-width:360px){
 .container{
 	width:100%;
@@ -94,5 +93,432 @@
 .head p{
 	font-weight:500;
 	font-size:1.1rem;
+}
+}
+/*main section*/
+@media(min-width:360px){
+.main-sec{
+	width:80%;
+	margin:auto;
+}
+.main{
+	line-height:1.3rem;
+}
+.main h2{
+	font-size:1.5rem;
+	font-weight:500;
+}
+.main p{
+	font-size:0.9rem;
+	font-weight:400;
+}
+.main h3{
+	font-size:1.1rem;
+	font-weight:500;
+}
+.main-row1{
+	margin-bottom:1.5rem;
+}
+.main-row1 h2{
+	margin-bottom:0.8rem;
+}
+.main-row1 p{
+	width:90%;
+	line-height:1.2rem;
+}
+.main-row2 h2{
+	margin-bottom:1.2rem;
+}
+.main-row2 h3{
+	margin-top:1.1rem;
+}
+}
+@media(min-width:560px){
+.main-sec{
+	width:100%;
+	margin:auto;
+}
+.main{
+	line-height:1.7rem;
+}
+.main h2{
+	font-size:1.4rem;
+	font-weight:600;
+}
+.main p{
+	font-size:1.1rem;
+	font-weight:400;
+}
+.main h3{
+	font-size:1.2rem;
+	font-weight:500;
+}
+.main-row1{
+	margin-bottom:2rem;
+}
+.main-row1 p{
+	width:80%;
+}
+.main-row2 h2{
+	margin-bottom:1.1rem;
+}
+.main-row2 h3{
+	margin-top:1.2rem;
+}
+}
+@media(min-width:992px){
+.main-sec{
+	width:100%;
+	margin:auto;
+}
+.main{
+	line-height:2rem;
+}
+.main h2{
+	font-size:1.7rem;
+	font-weight:600;
+}
+.main p{
+	font-size:1.1rem;
+	font-weight:400;
+}
+.main h3{
+	font-size:1.4rem;
+	font-weight:500;
+}
+.main-row1{
+	margin-bottom:2rem;
+}
+.main-row1 p{
+	width:80%;
+}
+.main-row2 h2{
+	margin-bottom:1.5rem;
+}
+.main-row2 h3{
+	margin-top:1.3rem;
+}
+}
+/*skills*/
+@media(min-width:360px){
+.skill{
+	width:80%;
+	margin:auto;
+}
+.skill-coloum{
+	margin:5rem 0;
+}
+.skill-row h2{
+	margin:1rem 0;
+}
+.skill-row h2{
+	font-size:1.5rem;
+	font-weight:500;
+}
+.skill-row p{
+	font-size:0.9rem;
+	font-weight:400;
+	text-indent:3rem;
+	line-height:1rem;
+}
+.skill-row2{
+	margin:5rem 0;
+}
+.skill-row2 h2{
+	font-size:1.5rem;
+	font-weight:500;
+}
+.skill-row3 p{
+	font-size:0.9rem;
+	font-weight:500;
+	text-indent:3rem;
+}
+.skill-row3 h3{
+	font-size:1.1rem;
+	font-weight:400;
+	text-indent:3rem;
+	color:#007acc;
+	margin:1.3rem 0 0.5rem 0;
+}
+}
+@media(min-width:560px){
+.skill{
+	width:100%;
+	margin:auto;
+}
+.skill-coloum{
+	margin:5rem 0;
+}
+.skill-row{
+	line-height:2.5rem;
+}
+.skill-row h2{
+	font-size:1.4rem;
+	font-weight:600;
+}
+.skill-row p{
+	font-size:1.1rem;
+	font-weight:400;
+	text-indent:3rem;
+}
+.skill-row2{
+	margin:5rem 0;
+}
+.skill-row2 h2{
+	font-size:1.7rem;
+	font-weight:500;
+}
+.skill-row3 p{
+	font-size:1rem;
+	font-weight:500;
+	text-indent:3rem;
+}
+.skill-row3 h3{
+	font-size:1.2rem;
+	font-weight:400;
+	text-indent:3rem;
+	color:#007acc;
+	margin:1.3rem 0 0.7rem 0;
+}
+}
+@media(min-width:992px){
+.skill{
+	width:100%;
+	margin:auto;
+}
+.skill-coloum{
+	margin:5rem 0;
+}
+.skill-row{
+	line-height:2.5rem;
+}
+.skill-row h2{
+	font-size:1.7rem;
+	font-weight:500;
+}
+.skill-row p{
+	font-size:1.1rem;
+	font-weight:400;
+	text-indent:3rem;
+}
+.skill-row2{
+	margin:5rem 0;
+}
+.skill-row2 h2{
+	font-size:1.7rem;
+	font-weight:500;
+}
+.skill-row3 p{
+	font-size:1rem;
+	font-weight:500;
+	text-indent:3rem;
+}
+.skill-row3 h3{
+	font-size:1.3rem;
+	font-weight:400;
+	text-indent:3rem;
+	color:#007acc;
+	margin:1.3rem 0 0.7rem 0;
+}
+}
+/*projects*/
+@media(min-width:360px){
+
+.project{
+	margin:auto;
+	width:80%;
+}
+.prohead{
+	margin:5rem 0;
+}
+.project-col{
+	border:2px groove;
+	margin:0 0 3rem 0;
+}
+.pro-row3 i{
+	font-size:1.7rem;
+	-webkit-text-security: disc;
+	padding-right:0.7rem;
+}
+.project h1{
+	font-size:1.7rem;
+	font-weight:500;
+	margin:1.5rem 0;
+}
+.project h2{
+	font-size:1rem;
+	font-weight:600;
+	color:#000;
+}
+.pro-row1 a{
+	text-decoration:none;
+	color:#007acc;
+	font-size:0.9rem;
+}
+.pro-row1{
+	padding:0.7rem;
+	border-bottom:2px groove;
+	line-height:1.5rem;
+}
+.pro-row2 p{
+	font-size:1rem;
+}
+.pro-row2{
+	border-bottom:2px groove;
+	padding:0.7rem;
+	line-height:1.5rem;
+}
+.pro-row3 p{
+	font-size:1rem;
+	text-indent:1.5rem;
+}
+.pro-row3{
+	padding:0.7rem;
+	line-height:1.1rem;
+}
+.declaration{
+	margin:5rem 0;
+}
+.declaration p{
+	font-size:1rem;
+	text-indent:1.5rem;
+	line-height:1.3rem;
+}
+.declaration h4{
+	font-size:1rem;
+	margin-top:3rem;
+}
+
+}
+@media(min-width:560px){
+.project{
+	margin:auto;
+	width:100%;
+}
+.prohead{
+	margin:5rem 0;
+}
+.project-col{
+	border:2px groove;
+	margin:0 0 3rem 0;
+}
+.pro-row3 i{
+	font-size:2rem;
+	-webkit-text-security: disc;
+	padding-right:0.7rem;
+}
+.project h1{
+	font-size:1.7rem;
+	font-weight:500;
+	margin:1.5rem 0;
+}
+.project h2{
+	font-size:1.2rem;
+	font-weight:600;
+	color:#000;
+}
+.pro-row1 a{
+	text-decoration:none;
+	color:#007acc;
+	font-size:1.2rem;
+}
+.pro-row1{
+	padding:0.7rem;
+	border-bottom:2px groove;
+	line-height:1.5rem;
+}
+.pro-row2 p{
+	font-size:1.1rem;
+}
+.pro-row2{
+	border-bottom:2px groove;
+	padding:0.7rem;
+	line-height:1.5rem;
+}
+.pro-row3 p{
+	font-size:1.1rem;
+	text-indent:1.5rem;
+}
+.pro-row3{
+	padding:0.7rem;
+	line-height:1.1rem;
+}
+.declaration{
+	margin:5rem 0;
+}
+.declaration p{
+	font-size:1.1rem;
+	text-indent:1.5rem;
+	line-height:1.5rem;
+}
+.declaration h4{
+	font-size:1.1rem;
+	margin-top:4rem;
+}
+
+}
+@media(min-width:992px){
+.project{
+	width:100%;
+	margin:auto;
+}
+.prohead{
+	margin:5rem 0;
+}
+.project-col{
+	border:2px groove;
+	margin:0 0 3rem 0;
+}
+.pro-row3 i{
+	font-size:2rem;
+	-webkit-text-security: disc;
+	padding-right:0.7rem;
+}
+.project h1{
+	font-size:1.7rem;
+	font-weight:500;
+	margin:1.5rem 0;
+}
+.project h2{
+	font-size:1.2rem;
+	font-weight:600;
+	color:#000;
+}
+.pro-row1 a{
+	text-decoration:none;
+	color:#007acc;
+}
+.pro-row1{
+	padding:0.7rem;
+	border-bottom:2px groove;
+	line-height:1.5rem;
+}
+.pro-row2 p{
+	font-size:1.1rem;
+}
+.pro-row2{
+	border-bottom:2px groove;
+	padding:0.7rem;
+	line-height:1.5rem;
+}
+.pro-row3 p{
+	font-size:1.1rem;
+	text-indent:1.5rem;
+}
+.pro-row3{
+	padding:0.7rem;
+	line-height:1.1rem;
+}
+.declaration{
+	margin:5rem 0;
+}
+.declaration p{
+	font-size:1.1rem;
+	text-indent:1.5rem;
+	line-height:1.5rem;
+}
+.declaration h4{
+	font-size:1.1rem;
+	margin-top:4rem;
 }
 }
